@@ -35,7 +35,7 @@ export const prodParasKusama: EndpointOption[] = [
     paraId: 2088,
     providers: {
       Centrifuge: 'wss://fullnode.altair.centrifuge.io',
-      OnFinality: 'wss://altair.api.onfinality.io/public-ws'
+      OnFinality: 'wss://altair.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267'
     },
     text: 'Altair',
     ui: {
@@ -63,7 +63,7 @@ export const prodParasKusama: EndpointOption[] = [
     paraId: 2119,
     providers: {
       AjunaNetwork: 'wss://rpc-parachain.bajun.network',
-      OnFinality: 'wss://bajun.api.onfinality.io/public-ws'
+      OnFinality: 'wss://bajun.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267'
     },
     text: 'Bajun Network',
     ui: {
@@ -92,7 +92,7 @@ export const prodParasKusama: EndpointOption[] = [
     providers: {
       Dwellir: 'wss://bifrost-rpc.dwellir.com',
       Liebi: 'wss://bifrost-rpc.liebi.com/ws',
-      OnFinality: 'wss://bifrost-parachain.api.onfinality.io/public-ws'
+      OnFinality: 'wss://bifrost-parachain.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267'
     },
     text: 'Bifrost',
     ui: {
@@ -105,7 +105,7 @@ export const prodParasKusama: EndpointOption[] = [
     info: 'bitcountryPioneer',
     paraId: 2096,
     providers: {
-      OnFinality: 'wss://pioneer.api.onfinality.io/public-ws'
+      OnFinality: 'wss://pioneer.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267'
     },
     text: 'Bit.Country Pioneer',
     ui: {
@@ -255,7 +255,7 @@ export const prodParasKusama: EndpointOption[] = [
     paraId: 2015,
     providers: {
       Integritee: 'wss://kusama.api.integritee.network',
-      OnFinality: 'wss://integritee-kusama.api.onfinality.io/public-ws'
+      OnFinality: 'wss://integritee-kusama.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267'
     },
     text: 'Integritee Network',
     ui: {
@@ -269,7 +269,7 @@ export const prodParasKusama: EndpointOption[] = [
     paraId: 2125,
     providers: {
       // 'InvArch Team': 'wss://tinker.invarch.network', // https://github.com/polkadot-js/apps/issues/8623
-      OnFinality: 'wss://invarch-tinkernet.api.onfinality.io/public-ws',
+      OnFinality: 'wss://invarch-tinkernet.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267',
       'light client': 'light://substrate-connect/kusama/tinkernet'
     },
     text: 'InvArch Tinkernet',
@@ -301,7 +301,7 @@ export const prodParasKusama: EndpointOption[] = [
       'Acala Foundation 2': 'wss://karura-rpc-2.aca-api.network/ws',
       'Acala Foundation 3': 'wss://karura-rpc-3.aca-api.network/ws',
       Dwellir: 'wss://karura-rpc.dwellir.com',
-      OnFinality: 'wss://karura.api.onfinality.io/public-ws',
+      OnFinality: 'wss://karura.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267',
       'Polkawallet 0': 'wss://karura.polkawallet.io'
     },
     text: 'Karura',
@@ -316,7 +316,7 @@ export const prodParasKusama: EndpointOption[] = [
     paraId: 2004,
     providers: {
       Dwellir: 'wss://khala-rpc.dwellir.com',
-      OnFinality: 'wss://khala.api.onfinality.io/public-ws',
+      OnFinality: 'wss://khala.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267',
       Phala: 'wss://khala-api.phala.network/ws'
     },
     text: 'Khala Network',
@@ -358,7 +358,7 @@ export const prodParasKusama: EndpointOption[] = [
     paraId: 2092,
     providers: {
       'Kintsugi Labs': 'wss://api-kusama.interlay.io/parachain',
-      OnFinality: 'wss://kintsugi.api.onfinality.io/public-ws'
+      OnFinality: 'wss://kintsugi.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267'
     },
     text: 'Kintsugi BTC',
     ui: {
@@ -441,7 +441,7 @@ export const prodParasKusama: EndpointOption[] = [
     paraId: 2110,
     providers: {
       Mangata: 'wss://prod-kusama-collator-01.mangatafinance.cloud',
-      OnFinality: 'wss://mangata-x.api.onfinality.io/public-ws'
+      OnFinality: 'wss://mangata-x.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267'
     },
     text: 'Mangata',
     ui: {
@@ -469,7 +469,7 @@ export const prodParasKusama: EndpointOption[] = [
     providers: {
       Blast: 'wss://moonriver.public.blastapi.io',
       'Moonbeam Foundation': 'wss://wss.api.moonriver.moonbeam.network',
-      OnFinality: 'wss://moonriver.api.onfinality.io/public-ws',
+      OnFinality: 'wss://moonriver.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267',
       UnitedBloc: 'wss://moonriver.unitedbloc.com:2001'
     },
     text: 'Moonriver',
@@ -486,7 +486,7 @@ export const prodParasKusama: EndpointOption[] = [
       // This is a possible false positive since OnFinality does not allow connections
       // from non polkadot.js.org urls - however until resolved, this needs to be disabled
       // since we cannot manually check the urls twice daily when they are reported
-      // OnFinality: 'wss://parallel-heiko.api.onfinality.io/public-ws' // https://github.com/polkadot-js/apps/issues/8973
+      // OnFinality: 'wss://parallel-heiko.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267' // https://github.com/polkadot-js/apps/issues/8973
       Parallel: 'wss://heiko-rpc.parallel.fi'
     },
     text: 'Parallel Heiko',
@@ -554,7 +554,7 @@ export const prodParasKusama: EndpointOption[] = [
       // This is a possible false positive since OnFinality does not allow connections
       // from non polkadot.js.org urls - however until resolved, this needs to be disabled
       // since we cannot manually check the urls twice daily when they are reported
-      // OnFinality: 'wss://quartz.api.onfinality.io/public-ws', // https://github.com/polkadot-js/apps/issues/8973
+      // OnFinality: 'wss://quartz.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267', // https://github.com/polkadot-js/apps/issues/8973
       'Unique America': 'wss://us-ws-quartz.unique.network',
       'Unique Asia': 'wss://asia-ws-quartz.unique.network',
       'Unique Europe': 'wss://eu-ws-quartz.unique.network'
@@ -585,7 +585,7 @@ export const prodParasKusama: EndpointOption[] = [
     providers: {
       Airalab: 'wss://kusama.rpc.robonomics.network/',
       Leemo: 'wss://robonomics.leemo.me',
-      OnFinality: 'wss://robonomics.api.onfinality.io/public-ws',
+      OnFinality: 'wss://robonomics.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267',
       Samsara: 'wss://robonomics.0xsamsara.com'
     },
     text: 'Robonomics',
@@ -602,7 +602,7 @@ export const prodParasKusama: EndpointOption[] = [
     providers: {
       Airalab: 'wss://kusama.rpc.robonomics.network/',
       Leemo: 'wss://robonomics.leemo.me',
-      OnFinality: 'wss://robonomics.api.onfinality.io/public-ws',
+      OnFinality: 'wss://robonomics.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267',
       Samsara: 'wss://robonomics.0xsamsara.com'
     },
     text: 'Robonomics 2',
@@ -632,7 +632,7 @@ export const prodParasKusama: EndpointOption[] = [
     providers: {
       Blast: 'wss://shiden.public.blastapi.io',
       Dwellir: 'wss://shiden-rpc.dwellir.com',
-      OnFinality: 'wss://shiden.api.onfinality.io/public-ws',
+      OnFinality: 'wss://shiden.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267',
       StakeTechnologies: 'wss://rpc.shiden.astar.network',
       'light client': 'light://substrate-connect/kusama/shiden'
     },
@@ -781,7 +781,7 @@ export const prodParasKusama: EndpointOption[] = [
     providers: {
       // ZeitgeistPM: 'wss://rpc-0.zeitgeist.pm', // https://github.com/polkadot-js/apps/issues/7982
       Dwellir: 'wss://zeitgeist-rpc.dwellir.com',
-      OnFinality: 'wss://zeitgeist.api.onfinality.io/public-ws'
+      OnFinality: 'wss://zeitgeist.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267'
     },
     text: 'Zeitgeist',
     ui: {
@@ -798,7 +798,7 @@ export const prodParasKusamaCommon: EndpointOption[] = [
     providers: {
       Dwellir: 'wss://statemine-rpc.dwellir.com',
       'Dwellir Tunisia': 'wss://statemine-rpc-tn.dwellir.com',
-      OnFinality: 'wss://statemine.api.onfinality.io/public-ws',
+      OnFinality: 'wss://statemine.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267',
       Parity: 'wss://statemine-rpc.polkadot.io',
       RadiumBlock: 'wss://statemine.public.curie.radiumblock.co/ws'
     },
@@ -815,7 +815,7 @@ export const prodParasKusamaCommon: EndpointOption[] = [
     paraId: 1001,
     providers: {
       'Encointer Association': 'wss://kusama.api.encointer.org',
-      OnFinality: 'wss://encointer.api.onfinality.io/public-ws' // https://github.com/polkadot-js/apps/issues/8553, reenabled for Polkadot JS
+      OnFinality: 'wss://encointer.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267' // https://github.com/polkadot-js/apps/issues/8553, reenabled for Polkadot JS
     },
     teleport: [-1],
     text: 'Encointer Network',
@@ -852,7 +852,7 @@ export const prodRelayKusama: EndpointOption = {
     Dwellir: 'wss://kusama-rpc.dwellir.com',
     'Dwellir Tunisia': 'wss://kusama-rpc-tn.dwellir.com',
     'IBP Network': 'wss://rpc.ibp.network/kusama',
-    OnFinality: 'wss://kusama.api.onfinality.io/public-ws',
+    OnFinality: 'wss://kusama.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267',
     Parity: 'wss://kusama-rpc.polkadot.io',
     RadiumBlock: 'wss://kusama.public.curie.radiumblock.co/ws',
     'light client': 'light://substrate-connect/kusama'

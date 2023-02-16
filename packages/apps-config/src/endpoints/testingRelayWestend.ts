@@ -191,7 +191,7 @@ export const testRelayWestend: EndpointOption = {
     Dwellir: 'wss://westend-rpc.dwellir.com',
     'Dwellir Tunisia': 'wss://westend-rpc-tn.dwellir.com',
     'IBP Network': 'wss://rpc.ibp.network/westend',
-    OnFinality: 'wss://westend.api.onfinality.io/public-ws',
+    OnFinality: 'wss://westend.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267',
     Parity: 'wss://westend-rpc.polkadot.io',
     'light client': 'light://substrate-connect/westend'
   },

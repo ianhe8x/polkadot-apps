@@ -27,7 +27,7 @@ export const prodParasPolkadot: EndpointOption[] = [
       'Acala Foundation 3': 'wss://acala-rpc-3.aca-api.network/ws',
       Dwellir: 'wss://acala-rpc.dwellir.com',
       // 'Automata 1RPC': 'wss://1rpc.io/aca' // https://github.com/polkadot-js/apps/issues/8648
-      OnFinality: 'wss://acala-polkadot.api.onfinality.io/public-ws',
+      OnFinality: 'wss://acala-polkadot.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267',
       'Polkawallet 0': 'wss://acala.polkawallet.io'
     },
     text: 'Acala',
@@ -72,7 +72,7 @@ export const prodParasPolkadot: EndpointOption[] = [
       'Automata 1RPC': 'wss://1rpc.io/astr',
       Blast: 'wss://astar.public.blastapi.io',
       Dwellir: 'wss://astar-rpc.dwellir.com',
-      OnFinality: 'wss://astar.api.onfinality.io/public-ws',
+      OnFinality: 'wss://astar.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267',
       RadiumBlock: 'wss://astar.public.curie.radiumblock.co/ws',
       'light client': 'light://substrate-connect/polkadot/astar'
     },
@@ -101,7 +101,7 @@ export const prodParasPolkadot: EndpointOption[] = [
       // This is a possible false positive since OnFinality does not allow connections
       // from non polkadot.js.org urls - however until resolved, this needs to be disabled
       // since we cannot manually check the urls twice daily when they are reported
-      // OnFinality: 'wss://bifrost-polkadot.api.onfinality.io/public-ws' // https://github.com/polkadot-js/apps/issues/8973
+      // OnFinality: 'wss://bifrost-polkadot.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267' // https://github.com/polkadot-js/apps/issues/8973
     },
     text: 'Bifrost',
     ui: {
@@ -128,7 +128,7 @@ export const prodParasPolkadot: EndpointOption[] = [
     paraId: 2031,
     providers: {
       Centrifuge: 'wss://fullnode.parachain.centrifuge.io',
-      OnFinality: 'wss://centrifuge-parachain.api.onfinality.io/public-ws'
+      OnFinality: 'wss://centrifuge-parachain.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267'
     },
     text: 'Centrifuge',
     ui: {
@@ -145,7 +145,7 @@ export const prodParasPolkadot: EndpointOption[] = [
       // This is a possible false positive since OnFinality does not allow connections
       // from non polkadot.js.org urls - however until resolved, this needs to be disabled
       // since we cannot manually check the urls twice daily when they are reported
-      // OnFinality: 'wss://clover.api.onfinality.io/public-ws' // https://github.com/polkadot-js/apps/issues/8973
+      // OnFinality: 'wss://clover.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267' // https://github.com/polkadot-js/apps/issues/8973
     },
     text: 'Clover',
     ui: {
@@ -175,7 +175,7 @@ export const prodParasPolkadot: EndpointOption[] = [
       // This is a possible false positive since OnFinality does not allow connections
       // from non polkadot.js.org urls - however until resolved, this needs to be disabled
       // since we cannot manually check the urls twice daily when they are reported
-      // OnFinality: 'wss://composable.api.onfinality.io/public-ws' // https://github.com/polkadot-js/apps/issues/8973
+      // OnFinality: 'wss://composable.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267' // https://github.com/polkadot-js/apps/issues/8973
     },
     text: 'Composable Finance',
     ui: {
@@ -231,7 +231,7 @@ export const prodParasPolkadot: EndpointOption[] = [
       // This is a possible false positive since OnFinality does not allow connections
       // from non polkadot.js.org urls - however until resolved, this needs to be disabled
       // since we cannot manually check the urls twice daily when they are reported
-      // OnFinality: 'wss://efinity.api.onfinality.io/public-ws' // https://github.com/polkadot-js/apps/issues/8973
+      // OnFinality: 'wss://efinity.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267' // https://github.com/polkadot-js/apps/issues/8973
     },
     text: 'Efinity',
     ui: {
@@ -303,7 +303,7 @@ export const prodParasPolkadot: EndpointOption[] = [
       // This is a possible false positive since OnFinality does not allow connections
       // from non polkadot.js.org urls - however until resolved, this needs to be disabled
       // since we cannot manually check the urls twice daily when they are reported
-      // OnFinality: 'wss://hydradx.api.onfinality.io/public-ws' // https://github.com/polkadot-js/apps/issues/8973
+      // OnFinality: 'wss://hydradx.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267' // https://github.com/polkadot-js/apps/issues/8973
     },
     text: 'HydraDX',
     ui: {
@@ -330,7 +330,7 @@ export const prodParasPolkadot: EndpointOption[] = [
     paraId: 2032,
     providers: {
       'Kintsugi Labs': 'wss://api.interlay.io/parachain',
-      OnFinality: 'wss://interlay.api.onfinality.io/public-ws'
+      OnFinality: 'wss://interlay.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267'
     },
     text: 'Interlay',
     ui: {
@@ -358,7 +358,7 @@ export const prodParasPolkadot: EndpointOption[] = [
     providers: {
       Dwellir: 'wss://kilt-rpc.dwellir.com',
       'KILT Protocol': 'wss://spiritnet.kilt.io/',
-      OnFinality: 'wss://spiritnet.api.onfinality.io/public-ws'
+      OnFinality: 'wss://spiritnet.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267'
     },
     text: 'KILT Spiritnet',
     ui: {
@@ -417,7 +417,7 @@ export const prodParasPolkadot: EndpointOption[] = [
       'Automata 1RPC': 'wss://1rpc.io/glmr',
       Blast: 'wss://moonbeam.public.blastapi.io',
       'Moonbeam Foundation': 'wss://wss.api.moonbeam.network',
-      OnFinality: 'wss://moonbeam.api.onfinality.io/public-ws',
+      OnFinality: 'wss://moonbeam.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267',
       UnitedBloc: 'wss://moonbeam.unitedbloc.com:3001'
     },
     text: 'Moonbeam',
@@ -432,7 +432,7 @@ export const prodParasPolkadot: EndpointOption[] = [
     paraId: 2026,
     providers: {
       Dwellir: 'wss://eden-rpc.dwellir.com',
-      OnFinality: 'wss://nodle-parachain.api.onfinality.io/public-ws'
+      OnFinality: 'wss://nodle-parachain.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267'
     },
     text: 'Nodle',
     ui: {
@@ -489,7 +489,7 @@ export const prodParasPolkadot: EndpointOption[] = [
       // This is a possible false positive since OnFinality does not allow connections
       // from non polkadot.js.org urls - however until resolved, this needs to be disabled
       // since we cannot manually check the urls twice daily when they are reported
-      // OnFinality: 'wss://parallel.api.onfinality.io/public-ws', // https://github.com/polkadot-js/apps/issues/8973
+      // OnFinality: 'wss://parallel.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267', // https://github.com/polkadot-js/apps/issues/8973
       Parallel: 'wss://rpc.parallel.fi'
     },
     text: 'Parallel',
@@ -516,7 +516,7 @@ export const prodParasPolkadot: EndpointOption[] = [
     info: 'phala',
     paraId: 2035,
     providers: {
-      OnFinality: 'wss://phala.api.onfinality.io/public-ws',
+      OnFinality: 'wss://phala.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267',
       Phala: 'wss://api.phala.network/ws'
     },
     text: 'Phala Network',
@@ -533,7 +533,7 @@ export const prodParasPolkadot: EndpointOption[] = [
     paraId: 2040,
     providers: {
       // 'Polkadex Team': 'wss://mainnet.polkadex.trade/', // https://github.com/polkadot-js/apps/issues/7620
-      // OnFinality: 'wss://polkadex.api.onfinality.io/public-ws' // https://github.com/polkadot-js/apps/issues/7620
+      // OnFinality: 'wss://polkadex.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267' // https://github.com/polkadot-js/apps/issues/7620
     },
     text: 'Polkadex',
     ui: {
@@ -576,7 +576,7 @@ export const prodParasPolkadot: EndpointOption[] = [
       // This is a possible false positive since OnFinality does not allow connections
       // from non polkadot.js.org urls - however until resolved, this needs to be disabled
       // since we cannot manually check the urls twice daily when they are reported
-      // OnFinality: 'wss://unique.api.onfinality.io/public-ws', // https://github.com/polkadot-js/apps/issues/8973
+      // OnFinality: 'wss://unique.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267', // https://github.com/polkadot-js/apps/issues/8973
       'Unique America': 'wss://us-ws.unique.network/',
       'Unique Asia': 'wss://asia-ws.unique.network/',
       'Unique Europe': 'wss://eu-ws.unique.network/'
@@ -596,7 +596,7 @@ export const prodParasPolkadotCommon: EndpointOption[] = [
     providers: {
       Dwellir: 'wss://statemint-rpc.dwellir.com',
       'Dwellir Tunisia': 'wss://statemint-rpc-tn.dwellir.com',
-      OnFinality: 'wss://statemint.api.onfinality.io/public-ws',
+      OnFinality: 'wss://statemint.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267',
       Parity: 'wss://statemint-rpc.polkadot.io',
       RadiumBlock: 'wss://statemint.public.curie.radiumblock.co/ws'
     },
@@ -611,7 +611,7 @@ export const prodParasPolkadotCommon: EndpointOption[] = [
     info: 'polkadotCollectives',
     paraId: 1001,
     providers: {
-      OnFinality: 'wss://collectives.api.onfinality.io/public-ws',
+      OnFinality: 'wss://collectives.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267',
       Parity: 'wss://polkadot-collectives-rpc.polkadot.io'
     },
     teleport: [-1],
@@ -649,7 +649,7 @@ export const prodRelayPolkadot: EndpointOption = {
     Dwellir: 'wss://polkadot-rpc.dwellir.com',
     'Dwellir Tunisia': 'wss://polkadot-rpc-tn.dwellir.com',
     'IBP Network': 'wss://rpc.ibp.network/polkadot',
-    OnFinality: 'wss://polkadot.api.onfinality.io/public-ws',
+    OnFinality: 'wss://polkadot.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267',
     Parity: 'wss://rpc.polkadot.io',
     RadiumBlock: 'wss://polkadot.public.curie.radiumblock.co/ws',
     'light client': 'light://substrate-connect/polkadot'

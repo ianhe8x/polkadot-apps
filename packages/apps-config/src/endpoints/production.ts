@@ -54,7 +54,7 @@ export const prodChains: EndpointOption[] = [
     info: 'automata',
     providers: {
       'Automata Network': 'wss://api.ata.network',
-      OnFinality: 'wss://automata.api.onfinality.io/public-ws'
+      OnFinality: 'wss://automata.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267'
     },
     text: 'Automata',
     ui: {
@@ -132,7 +132,7 @@ export const prodChains: EndpointOption[] = [
     info: 'crust',
     providers: {
       'Crust Network': 'wss://rpc.crust.network',
-      OnFinality: 'wss://crust.api.onfinality.io/public-ws'
+      OnFinality: 'wss://crust.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267'
     },
     text: 'Crust Network',
     ui: {
@@ -157,7 +157,7 @@ export const prodChains: EndpointOption[] = [
     providers: {
       'Darwinia Network': 'wss://crab-rpc.darwinia.network',
       Dwellir: 'wss://darwiniacrab-rpc.dwellir.com',
-      OnFinality: 'wss://darwinia-crab.api.onfinality.io/public-ws'
+      OnFinality: 'wss://darwinia-crab.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267'
     },
     text: 'Darwinia Crab',
     ui: {
@@ -191,7 +191,7 @@ export const prodChains: EndpointOption[] = [
     providers: {
       'Commonwealth Labs': 'wss://mainnet2.edgewa.re',
       JelliedOwl: 'wss://edgeware.jelliedowl.net'
-      // OnFinality: 'wss://edgeware.api.onfinality.io/public-ws', // https://github.com/polkadot-js/apps/issues/8768
+      // OnFinality: 'wss://edgeware.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267', // https://github.com/polkadot-js/apps/issues/8768
     },
     text: 'Edgeware',
     ui: {
@@ -353,7 +353,7 @@ export const prodChains: EndpointOption[] = [
     info: 'nodle',
     providers: {
       // Nodle: 'wss://main3.nodleprotocol.io', // https://github.com/polkadot-js/apps/issues/7652
-      // OnFinality: 'wss://nodle.api.onfinality.io/public-ws' // https://github.com/polkadot-js/apps/issues/8013
+      // OnFinality: 'wss://nodle.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267' // https://github.com/polkadot-js/apps/issues/8013
     },
     text: 'Nodle',
     ui: {
@@ -364,7 +364,7 @@ export const prodChains: EndpointOption[] = [
   {
     info: 'polkadex',
     providers: {
-      OnFinality: 'wss://polkadex.api.onfinality.io/public-ws',
+      OnFinality: 'wss://polkadex.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267',
       'Polkadex Team': 'wss://mainnet.polkadex.trade'
     },
     text: 'Polkadex',
@@ -420,7 +420,7 @@ export const prodChains: EndpointOption[] = [
   {
     info: 'sora-substrate',
     providers: {
-      OnFinality: 'wss://sora.api.onfinality.io/public-ws',
+      OnFinality: 'wss://sora.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267',
       'SORA Parliament Ministry of Finance': 'wss://ws.mof.sora.org',
       'SORA Parliament Ministry of Finance #2': 'wss://mof2.sora.org',
       'SORA Parliament Ministry of Finance #3': 'wss://mof3.sora.org'

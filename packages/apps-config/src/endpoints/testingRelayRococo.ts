@@ -337,7 +337,7 @@ export const testParasRococo: EndpointOption[] = [
     info: 'rococoNodle',
     paraId: 2026,
     providers: {
-      OnFinality: 'wss://nodle-paradis.api.onfinality.io/public-ws'
+      OnFinality: 'wss://nodle-paradis.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267'
     },
     text: 'Nodle',
     ui: {
@@ -652,7 +652,7 @@ export const testRelayRococo: EndpointOption = {
   ],
   providers: {
     Parity: 'wss://rococo-rpc.polkadot.io',
-    // OnFinality: 'wss://rococo.api.onfinality.io/public-ws', // After reset, node misses host functions
+    // OnFinality: 'wss://rococo.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267', // After reset, node misses host functions
     // 'Ares Protocol': 'wss://rococo.aresprotocol.com' // https://github.com/polkadot-js/apps/issues/5767
     'light client': 'light://substrate-connect/rococo'
   },

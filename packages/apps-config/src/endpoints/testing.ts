@@ -98,7 +98,7 @@ export const testChains: EndpointOption[] = [
     info: 'automata-contextfree',
     providers: {
       'Automata Network': 'wss://cf-api.ata.network',
-      OnFinality: 'wss://contextfree.api.onfinality.io/public-ws'
+      OnFinality: 'wss://contextfree.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267'
     },
     text: 'Automata ContextFree',
     ui: {
@@ -490,7 +490,7 @@ export const testChains: EndpointOption[] = [
     info: 'acala',
     providers: {
       // Acala: 'wss://mandala.polkawallet.io' // https://github.com/polkadot-js/apps/issues/9005
-      // OnFinality: 'wss://acala-mandala.api.onfinality.io/public-ws' // https://github.com/polkadot-js/apps/issues/8105
+      // OnFinality: 'wss://acala-mandala.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267' // https://github.com/polkadot-js/apps/issues/8105
     },
     text: 'Mandala',
     ui: {
@@ -524,7 +524,7 @@ export const testChains: EndpointOption[] = [
     providers: {
       Blast: 'wss://moonbase-alpha.public.blastapi.io',
       'Moonbeam Foundation': 'wss://wss.api.moonbase.moonbeam.network',
-      OnFinality: 'wss://moonbeam-alpha.api.onfinality.io/public-ws',
+      OnFinality: 'wss://moonbeam-alpha.api.onfinality.io/ws?apikey=451f59f9-e828-46e0-a1b9-511d82de9267',
       UnitedBloc: 'wss://moonbase.unitedbloc.com:1001'
     },
     text: 'Moonbase Alpha',
